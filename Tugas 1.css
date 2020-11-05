@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    display : inline
+}
+
+body{
+    background-color: whitesmoke;
+    text-align: left;
+}
+
+.header{
+    text-align: center;
+    background-color: rgb(224, 199, 178);
+    color: rgba(136, 34, 16, 0.842);
+    width: 784px;
+    height: 200px;
+    padding: 10px 0px 10px 0px;
+}
+
+.content{
+    display: flex;
+}
+
+.kolom1{
+    background-color: yellow;
+    height: auto;
+    width: 200px;
+}
+
+.kolom2{
+    background-color: rgb(230, 128, 154);
+    height: auto;
+    width: 584px;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(235, 165, 235);
+    width: 784px;
+    height: 100px;
+}
