@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  display: inline;
+}
+
+body {
+  background-color: #f8d40a;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar li {
+  float: left;
+  margin-right: 20px;
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar li a:hover {
+  background-color: rgba(248, 232, 10, 0.993);
+  color: black;
+}
+
+.sidebar {
+  float: right;
+  height: auto;
+  /* width: 300px;  kotak supaya ngejauh dari margin (makin kekiri) */
+  background-attachment: #333;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  /* width: 200px;  kotak pilihannya ke arah kanan(penuh) */
+  text-align: right;
+  background-color: #333;
+}
+.sidebar li a {
+  display: block;
+  color: white;
+  padding: 10px 30px;
+  /* width: 100px;  untuk bagian tulisannya */
+  text-decoration: none;
+}
+.sidebar li a:hover {
+  background-color: rgba(248, 232, 10, 0.993);
+  /* utk warna kotak pas milih jadi beda */
+  color: black;
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 15px;
+}
+
+/* .jumbotron{
+    font-size: 20px;
+    padding: 60px;
+    background-color: $bgcolour;
+    h1{
+        text-align: center;
+        color: white;
+        margin-bottom: 70px;
+    }
+}
+
+.jumbotron > h2 {
+    text-align: center;
+    color: rgba(248, 232, 10, 0.993);
+    margin-bottom: 70px;
+  } */
+.home {
+  background-color: #333;
+}
+
+.home > h3 {
+  text-align: left;
+  color: rgba(248, 232, 10, 0.993);
+  padding: 10px;
+}
+
+.home2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.contact {
+  background-color: #333;
+}
+
+.contact > h3 {
+  text-align: left;
+  color: rgba(248, 232, 10, 0.993);
+  padding: 10px;
+}
+
+.contact2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.gallery {
+  background-color: #333;
+}
+
+.gallery > h3 {
+  text-align: left;
+  color: rgba(248, 232, 10, 0.993);
+  padding: 10px;
+}
+
+.foto {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.foto > img {
+  margin: 10px;
+}
+
+.About {
+  background-color: #333;
+}
+
+.About > h3 {
+  text-align: left;
+  color: rgba(248, 232, 10, 0.993);
+  padding: 10px;
+}
+
+.about2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.footer > a {
+  text-align: center;
+  color: black;
+}
+
+/*# sourceMappingURL=Tugas-1.css.map */
