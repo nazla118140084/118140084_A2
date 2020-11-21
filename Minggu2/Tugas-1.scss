@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    display : inline
+}
+
+body{
+    background-color: rgb(248, 212, 10);
+}
+
+$mycolour : rgba(248, 232, 10, 0.993);
+$bgcolour : #333;
+$number1:20px;
+$align:center;
+
+.navbar{
+    ul{
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        overflow: hidden;
+        background-color: $bgcolour;
+    }
+
+    li{
+        float: left;
+        margin-right: $number1;
+    }
+
+    li a{
+        display: block;
+        color: white;
+        text-align: $align;
+        padding: 14px $number1;
+        text-decoration: none;
+    }
+
+    li a:hover{
+        background-color: $mycolour;
+        color: black;
+    }
+}
+
+.sidebar{
+    float: right;
+    height: auto;
+   /* width: 300px;  kotak supaya ngejauh dari margin (makin kekiri) */
+    background-attachment: #333;
+
+    ul{
+        list-style-type: none;
+        padding: 0;
+       /* width: 200px;  kotak pilihannya ke arah kanan(penuh) */
+        text-align: right;
+        background-color: #333;
+    }
+
+    li{
+        a{
+            display: block;
+            color: white;
+            padding: 10px 30px;
+           /* width: 100px;  untuk bagian tulisannya */
+            text-decoration: none;
+        }
+    }
+
+    li{
+        a:hover{
+            background-color:rgba(248, 232, 10, 0.993); /* utk warna kotak pas milih jadi beda */
+            color: black;
+        }
+    }
+}
+
+.header{
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 15px;
+}
+
+/* .jumbotron{
+    font-size: 20px;
+    padding: 60px;
+    background-color: $bgcolour;
+    h1{
+        text-align: center;
+        color: white;
+        margin-bottom: 70px;
+    }
+}
+
+.jumbotron > h2 {
+    text-align: center;
+    color: rgba(248, 232, 10, 0.993);
+    margin-bottom: 70px;
+  } */
+
+.home{
+    background-color: #333;;
+}
+
+.home > h3{
+    text-align: left;
+    color:  rgba(248, 232, 10, 0.993);
+    padding: 10px;
+}
+
+.home2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.contact {
+   background-color: #333;;
+}
+
+.contact > h3{
+    text-align: left;
+    color:  rgba(248, 232, 10, 0.993);
+    padding: 10px;
+}
+
+.contact2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.gallery{
+    background-color: #333;
+}
+
+.gallery > h3{
+    text-align: left;
+    color:  rgba(248, 232, 10, 0.993);
+    padding: 10px;
+}
+
+.foto{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.foto > img{
+    margin: 10px;
+}
+
+.About{
+    background-color: #333;;
+}
+
+.About > h3{
+    text-align: left;
+    color:  rgba(248, 232, 10, 0.993);
+    padding: 10px;
+}
+
+.about2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.footer > a{
+    text-align: center;
+    color: black;
+}
